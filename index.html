@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Life Online Course</title>
+    <style>
+        /* Eliminamos los márgenes por defecto para que ocupe toda la pantalla */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #f4f4f4;
+            font-family: sans-serif;
+        }
+
+        /* Contenedor que forzará al diseño de Canva a ser responsivo a pantalla completa */
+        .canva-container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .canva-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tu diseño de Canva adaptado a pantalla completa -->
+    <div class="canva-container">
+        <iframe loading="lazy" src="https://www.canva.com/design/DAHK3yEkPdg/HjnrvHnyjyV2-lOfG8yMDg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+        </iframe>
+    </div>
+
+</body>
+</html>
